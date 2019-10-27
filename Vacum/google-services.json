@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45741351967",
+    "firebase_url": "https://vacum-43feb.firebaseio.com",
+    "project_id": "vacum-43feb",
+    "storage_bucket": "vacum-43feb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45741351967:android:c07baee0321217908fe12a",
+        "android_client_info": {
+          "package_name": "com.proyect.interfaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45741351967-psrvmq4l1u3bgp4gv772dlicdsmdt2f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proyect.interfaces",
+            "certificate_hash": "c1b4ffc7964919b6454546a873d096b5c2829ba5"
+          }
+        },
+        {
+          "client_id": "45741351967-pnvsurkk8s2b3fpm6sejkec5h08b6id6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKHZCUmnbLjf09dJ-89g3qfZ1t4LaowF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45741351967-pnvsurkk8s2b3fpm6sejkec5h08b6id6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

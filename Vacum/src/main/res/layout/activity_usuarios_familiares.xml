@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsuariosFamiliares">
+
+    <ImageButton
+        android:id="@+id/mainUser"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:onClick="passActivityMain"
+        android:scaleType="fitXY"
+        android:src="@drawable/usuario1original"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/subUser01"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="passActivitySub"
+        android:scaleType="fitXY"
+        android:src="@drawable/usuario2original"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainUser" />
+
+    <ImageButton
+        android:id="@+id/subUser02"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:onClick="passActivitySub1"
+        android:scaleType="fitXY"
+        android:src="@drawable/usuario3original"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMainUser" />
+
+    <ImageButton
+        android:id="@+id/subUser03"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="passActivitySub2"
+        android:scaleType="fitXY"
+        android:src="@drawable/usuario4original"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/subUser02" />
+
+    <TextView
+        android:id="@+id/textMainUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/textMainUSR"
+        app:layout_constraintEnd_toEndOf="@+id/mainUser"
+        app:layout_constraintStart_toStartOf="@+id/mainUser"
+        app:layout_constraintTop_toBottomOf="@+id/mainUser" />
+
+    <TextView
+        android:id="@+id/textSubUser01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/textSubUSR01"
+        app:layout_constraintEnd_toEndOf="@+id/subUser01"
+        app:layout_constraintStart_toStartOf="@+id/subUser01"
+        app:layout_constraintTop_toBottomOf="@+id/subUser01" />
+
+    <TextView
+        android:id="@+id/textSubUser02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/textSubUSR02"
+        app:layout_constraintEnd_toEndOf="@+id/subUser02"
+        app:layout_constraintStart_toStartOf="@+id/subUser02"
+        app:layout_constraintTop_toBottomOf="@+id/subUser02" />
+
+    <TextView
+        android:id="@+id/textSubUser03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/textSubUSR03"
+        app:layout_constraintEnd_toEndOf="@+id/subUser03"
+        app:layout_constraintStart_toStartOf="@+id/subUser03"
+        app:layout_constraintTop_toBottomOf="@+id/subUser03" />
+
+    <TextView
+        android:id="@+id/textInstruct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="@string/AUF_instructions"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:onClick="passActivityold"
+        android:scaleType="fitXY"
+        android:src="@drawable/last"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textSubUser03"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/textSubUser02"
+        app:layout_constraintTop_toBottomOf="@+id/textInstruct"
+        app:layout_constraintVertical_bias="0.907" />
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="67dp"
+        android:layout_height="14dp"
+        android:text="Sub User 04"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

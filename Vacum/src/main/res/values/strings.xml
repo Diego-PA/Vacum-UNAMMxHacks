@@ -1,0 +1,73 @@
+<resources>
+    <!--pantalla de login-->
+    <string name="app_name">Vacum</string>
+    <string name="email">Email Address</string>
+    <string name="contrasenia">Password</string>
+    <string name="botoncito">Sign In</string>
+    <string name="made">Made with 💙 in UNAMxHacks</string>
+    <!--pantalla de usuarios-->
+    <string name="AUF_instructions">Select a user</string>
+    <string name="textMainUSR">20-59 years old women</string>
+    <string name="textSubUSR01">20-59 years old men</string>
+    <string name="textSubUSR02">0-9 years old childrens</string>
+    <string name="textSubUSR03">10-19 years old teenagers</string>
+    <string name="viejitos">People older than 60 years</string>
+
+    <!--pantalla de vacunas-->
+    <string name="vacTitle">Vaccines</string>
+    <!--Empiezan las vacunas-->
+
+    <!--Niños-->
+    <string name="kids">Cartilla para niños de 0 a 9 años.</string>
+    <string name="bcg">BCG</string>
+    <string name="bcgDescription">Es la vacuna contra la tuberculosis. Deja una cicatriz en el brazo posterior a su aplicación.</string>
+    <string name="bcgTime">Primera: Al nacer, Segunda: 2 meses, Tercera: 6 meses.</string>
+    <string name="hepatitisB">Hepatitis B</string>
+    <string name="hepatitisBDescription">Previene este tipo de hepatitis, que afecta principalmente al hígado.</string>
+    <string name="hepatitisBTime">Primera: Al nacer, Segunda: 2 meses, Tercera: 6 meses.</string>
+    <string name="pentavalente">Pentavalente</string>
+    <string name="pentavalenteDescription">Previene la difteria, tos ferina y tétanos, además también a la poliomielitis y a las bacterias del Haemophilus Influenzae del tipo b, que provocan neumonías y meningitis.</string>
+    <string name="pentavalenteTime">Primera: 2 meses, Segunda: 4 meses, Tercera: 6 meses, Cuarta: 18 meses.</string>
+    <string name="dpt">DPT</string>
+    <string name="dptDescription">Sirve como un refuerzo que previne a la difteria, tos ferina y tétanos.</string>
+    <string name="dptTime">Refuerzo: 4 años.</string>
+    <string name="rotavirus">Rotavirus</string>
+    <string name="rotavirusDescription">Previene la gastroenteritis o la diarrea causada por el rotavirus en sus formas graves.</string>
+    <string name="rotavirusTime">Primera: 2 meses, Segunda: 4 meses, Tercera: 6 meses.</string>
+    <string name="neumococo">Neumocócica o contra el neumococo</string>
+    <string name="neumococoDescription">Ayuda a prevenir la neumonía por neumococo.</string>
+    <string name="neumococoTime">Primera: 2 meses, Segunda: 4 meses, Refuerz: 12 meses.</string>
+    <string name="influenza">Influenza</string>
+    <string name="influenzaDescription">Previene el virus de la influenza y se aplica de octubre a febrero. </string>
+    <string name="influenzaTime">Primera: 6 meses, Segunda.7 meses, Revacunación: Cada año durante 4 años.</string>
+    <string name="vtp">Vacuna Triple Viral (SPR)</string>
+    <string name="vtpDescription">Previene el sarampión, la rubeola y las paperas. Se aplica en el brazo izquierdo.</string>
+    <string name="vtpTime">Primera: 1 año, Refuerzo: 6 años.</string>
+    <string name="sabin">Contra la SABIN</string>
+    <string name="sabinDescription">Ayuda a prevenir la poliomielitis. Se aplican 2 gotitas en los menores de 5 años a partir de los 6 meses como dosis adicional en cada Semana Nacional de Salud.</string>
+
+    <!--IniciaCartillaAdolescentes-->
+    <string name="adoles">Cartilla para adolescentes de entre 10 y 19 años.</string>
+    <string name="hepatititsbAD">Hepatitis B</string>
+    <string name="hepatitisbDescriptionAD">Previene este tipo de hepatitis, que afecta principalmente al hígado.</string>
+    <string name="hepatitisbTimeAD">Primera: A partir de los 11 años, Segunda: 4 semanas posteriores a la primera.</string>
+    <string name="tdAD">TD</string>
+    <string name="tdADDescription"> </string>
+    <string name="tdADTime">Con esquema completo, Refuerzo. 11 años de edad. Con esquema incompleto, Primera. Dosis inicial. Segunda. 1 mes después de la primera dosis. Tercera. 12 meses posteriores a la primera dosis.</string>
+    <string name="tdpa">TDPA</string>
+    <string name="tdpaADDescrip"> </string>
+    <string name="tdpaTime">Única. A partir de la semana 20 del embarazo.</string>
+    <string name="iestacional">Influenza Estacional</string>
+    <string name="iestacionalDesc"> </string>
+    <string name="iestacionalTime">Única: Cualquier trimestre del embarazo.</string>
+    <string name="sr">Sarampión y Rubeola</string>
+    <string name="srDescrip">(Los que no han sido vacunados o tienen esquema incompleto) contra sarampión y rubéola.</string>
+    <string name="srTime">Primera: En el primer contacto, Segunda: 4 semanas después de la primera, Con esquema incompleto, Dosis única: En el primer contacto.</string>
+    <string name="vph">Virus del Papiloma Humano</string>
+    <string name="vphDescription"> </string>
+    <string name="vphTime">Primera: Mujeres de 11 años, Segunda: 6 meses después de la primara dosis, Tercera: 5 años después de la primera dosis.</string>
+
+    <string name="mujeresadultas20">Cartilla correspondiente a mujeres de entre 20 y 59 años</string>
+    <string name="hombresadultos20">Cartilla correspondiente a hombres adultos de entre 20 y 59 años</string>
+    <string name="viejitos">Cartilla correspondiente a adultos mayores de 60 años</string>
+</resources>
